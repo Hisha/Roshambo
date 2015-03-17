@@ -8,4 +8,9 @@
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="@string/aboutAct"/>
 
+    <item
+        android:id="@+id/Stats"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/statsAct"/>
+
 </menu>

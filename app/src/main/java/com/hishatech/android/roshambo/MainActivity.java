@@ -103,6 +103,12 @@ public class MainActivity extends Activity {
                 this.startActivity(Aboutintent);
                 break;
 
+            case R.id.Stats:
+
+                Intent Statsintent = new Intent(this, StatsActivity.class);
+                this.startActivity(Statsintent);
+                break;
+
         }
 
         return false; // should never happen
