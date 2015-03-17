@@ -60,14 +60,17 @@ public class MainActivity extends Activity {
             switch (v.getId()) {
 
                 case R.id.btnPaper:
+                    hideAll();
                     compareChoice(Utils.Paper_ID);
                     break;
 
                 case R.id.btnRock:
+                    hideAll();
                     compareChoice(Utils.Rock_ID);
                     break;
 
                 case R.id.btnScissor:
+                    hideAll();
                     compareChoice(Utils.Scissor_ID);
                     break;
 
@@ -163,28 +166,28 @@ public class MainActivity extends Activity {
 
         if (aiChoice.equals(1)) {
             gameStatus = getResources().getString(R.string
-                    .paper) + getResources().getString(R.string
+                    .paper) + " " + getResources().getString(R.string
                     .beats);
         } else if (aiChoice.equals(2)) {
             gameStatus = getResources().getString(R.string
-                    .rock) + getResources().getString(R.string
+                    .rock) + " " + getResources().getString(R.string
                     .beats);
         } else if (aiChoice.equals(3)) {
             gameStatus = getResources().getString(R.string
-                    .scissor) + getResources().getString(R.string
+                    .scissor) + " " + getResources().getString(R.string
                     .beats);
         }
 
         if (userChoice.equals(1)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .paper);
         }
         if (userChoice.equals(2)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .rock);
         }
         if (userChoice.equals(3)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .scissor);
         }
 
@@ -206,28 +209,28 @@ public class MainActivity extends Activity {
 
         if (aiChoice.equals(1)) {
             gameStatus = getResources().getString(R.string
-                    .paper) + getResources().getString(R.string
+                    .paper) + " " + getResources().getString(R.string
                     .ties);
         } else if (aiChoice.equals(2)) {
             gameStatus = getResources().getString(R.string
-                    .rock) + getResources().getString(R.string
+                    .rock) + " " + getResources().getString(R.string
                     .ties);
         } else if (aiChoice.equals(3)) {
             gameStatus = getResources().getString(R.string
-                    .scissor) + getResources().getString(R.string
+                    .scissor) + " " + getResources().getString(R.string
                     .ties);
         }
 
         if (userChoice.equals(1)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .paper);
         }
         if (userChoice.equals(2)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .rock);
         }
         if (userChoice.equals(3)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .scissor);
         }
 
@@ -249,28 +252,28 @@ public class MainActivity extends Activity {
 
         if (aiChoice.equals(1)) {
             gameStatus = getResources().getString(R.string
-                    .paper) + getResources().getString(R.string
+                    .paper) + " " + getResources().getString(R.string
                     .losesTo);
         } else if (aiChoice.equals(2)) {
             gameStatus = getResources().getString(R.string
-                    .rock) + getResources().getString(R.string
+                    .rock) + " " + getResources().getString(R.string
                     .losesTo);
         } else if (aiChoice.equals(3)) {
             gameStatus = getResources().getString(R.string
-                    .scissor) + getResources().getString(R.string
+                    .scissor) + " " + getResources().getString(R.string
                     .losesTo);
         }
 
         if (userChoice.equals(1)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .paper);
         }
         if (userChoice.equals(2)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .rock);
         }
         if (userChoice.equals(3)) {
-            gameStatus = gameStatus + getResources().getString(R.string
+            gameStatus = gameStatus + " " + getResources().getString(R.string
                     .scissor);
         }
 
